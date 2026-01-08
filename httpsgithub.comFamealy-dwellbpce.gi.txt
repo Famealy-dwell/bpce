@@ -1,1 +1,99 @@
-https://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.git
+https://github.com/Famealy-dwell/bpce.githttps://github.com/Fame
+aly-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://githu
+
+Under the SREP 2021 letter, Groupe BPCE was required to review the economic capital calculation included in the ICAAP and apply risk quantification methodologies to all risks it is or might be exposed to, including, in particular, business risk. At that time, the business risk was deemed to be non-material for Groupe BPCE based on expert opinion as part of the annual review of the RAF conducted in 2021. 
+
+In order to respond to the ECB’s request, a method of quantitative assessment of the materiality of the business risk was developed within the framework of the ICAAP 2022, which led to judging this risk as non-material, in line with the assessment carried out within the framework of the annual review of the RAF. Therefore no economic assessment of this risk had been performed. 
+
+This year, the methodology for the quantitative assessment of the materiality of business risk has been improved, in line with a recommendation from SREP 2022. This method has led to the judgment that the business risk is material for the ICAAP 2023. 
+
+For this ICAAP, the economic assessment of business risk is derived from the quantitative materiality assessment method and can be considered a conservative measure. Furthermore, this method has been given a forward-looking vision. A refined risk-sensitive method will be developed subsequently. In the meantime, the proposed capitalisation of business risk responds to the recommendations of the SREP 2022 to consider the forward-looking perspective as well as additional allocation of capital to cover for risks which methodologies are still to be implemented. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Progress report on business risk assessment methodology 
+
+ 
+
+SCOPE OF RISKS 
+
+In this note, business risk means revenue risk, subtype of the business risk (cf. the inventory of Groupe BPCE's risks as revealed by the annual review of the RAF conducted in 2022). Revenue risk is defined as the risk of a decline in operating income due to a change in the business, economic or regulatory environment. The decline in operating income would result from a decline in revenues, combined with insufficient elasticity of operating expenses. 
+
+RATIONALE UNDERLYING THE DEVELOPEMENT OF THE METHODOOGY 
+
+For this ICAAP, the economic assessment of business risk is derived from the quantitative materiality assessment method. 
+
+The method developed to assess the materiality of the business risk (more precisely the revenue risk) consists of identifying past situations where the cost/income ratio has proved to be both less favourable than the budget for the year considered and less favourable than the trend over the last three years extrapolated to the current year (the trend is assumed not to fall below a floor value of 65%, which corresponds to the objective of the BPCE 2024 Strategic Plan). Whenever this situation occurs, the greater of the two deviations in the cost/income ratio is selected. Tthen a calculation is made to determine what decrease in the 2023 budget NBI (assuming budgeted operating expenses are maintained) would have a similar impact on the 2023 budget cost/income ratio. The maximum resulting NBI figure is used to position the revenue risk in the severity/frequency matrix established as part of the RAF 2022 update, hence to determine whether the revenue risk is material. 
+
+Should the revenue risk prove to be material, it would be proposed, for the purpose of conservative allocation, to capitalise this risk up to the maximum NBI amount considered after tax, pending the further development of a proper economic quantification method. 
+
+Furthermore, developing the same method, the maximum deviation of cost/income ratio observed over the past is related to the 2024-2026 multiyear plan data to calculate the economic capital of years 2023-2025. 
+
+This allows to answer the SREP recommendation on the additional allocation of economic capital to cover for risks which methodologies are still to be implemented, as well as the SREP recommendation that requests to consider the forward-looking perspective in the developed or in process to be developed economic methodology. 
+
+PERIMETER AND SCOPE OF DATA 
+
+The scope considered for the measurement of business risk is that of Groupe BPCE. The consolidated income statement data are restated for exceptional items. In order to ensure comparability of data over the past, perimeter adjustments have been made to take into account, among other things, the past disposals of Coface, Nexity, etc. 
+
+CRITICAL REVIEW OF THE PILLAR 1 
+
+Not relevant as business risk is not part of the risks assessed under Pillar 1 
+
+PROGRESS REPORT ON WORK INITIATED FOR ASSESSING BUSINESS RISK 
+
+For this ICAAP, the economic assessment of business risk is derived from the quantitative materiality assessment method. 
+
+The years 2016 and 2020 both show a deterioration in the cost/income ratio compared to the budget and compared to the trend over the last three years extrapolated to the current year (see table below). The maximum deviation observed is 1.8%. Such a deterioration in the cost/income ratio of the 2023 budget would correspond to a deterioration of €514m in NBI in 2023. 
+
+In the context of the annual review of the RAF conducted in 2022, any risk materialising in a loss of more than €480m is deemed material. The business risk is therefore considered material for the ICAAP 2023 and should be assessed from an economic perspective. 
+
+Pending the development of a specific quantitative method, the business risk is at this stage assessed at the amount of €514m minus the tax (in the event that this NBI reduction takes place, this tax would not be payable), therefore at the amount of €381M (considering a tax rate of 25,83%). 
+
+This was approved at the BPCE CMOC on March 8th , 2023, then at the BPCE Management Board on 14th, 2023. 
+
+TABLE 1 – INCOME STATEMENT – HISTORICAL DATA AND 2023 BUDGET  
+
+ 
+
+ 
+
+Developing this method on the basis of the multiyear plan data, the maximum cost/income deviation observed in the past is applied to the years 2024-2026 to project the economic assessment of the business risk to the period 2023-2025. The following table shows that the economic capital grows according to this method by 46% over the period, reaching €557m in 2026. 
+
+TABLE 2 – FORWARD-LOOKING VIEW OF THE ECONOMIC CAPITAL TO COVER BUSINESS RISK 
+
+ 
+
+Improvements made in comparison with 2022 ICAAP 
+
+ 
+
+Within the framework of the 2022 ICAAP, the situation when the cost/income ratio has proved to be less favourable than the average for the past 3 years was identified (see example (1) in the figure below). In the context of the improvement works and to meet a recommendation of the SREP 2022, this situation is replaced for the ICAAP 2023 by: the cost/income ratio has proved to be less favourable than the trend over the last three years extrapolated to the current year (see example (2) in the figure below). This method seems more appropriate to capture a deviation of the realised cost/income ratio from the past medium-term trend. On the other hand, the trend is assumed not to fall below a floor value of 65%, which corresponds to the objective of the BPCE 2024 Strategic Plan. 
+
+FIGURE 1 – AVERAGE FOR THE PAST 3 YEARS VS. TREND OVER THE LAST THREE YEARS EXTRAPOLATED TO THE CURRENT YEAR 
+
+ 
+
+In addition, it should be noted that the historical depth of the data has been mechanically extended by one year since the ICAAP 2022. 
+
+A forward-looking perspective was embedded in the methodology for assessing business risk. 
+
+Future outlook 
+
+ 
+
+For this ICAAP, the economic assessment of business risk is derived from the quantitative materiality assessment method. A more risk-sensitive method will be developed in the framework of a subsequent ICAAP. 
+b.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.githttps://github.com/Famealy-dwell/bpce.git
