@@ -1,0 +1,251 @@
+ 
+Content
+1	Introduction	1
+2	Methodology	2
+2.1	Description of the methodology for assessing risk type	2
+2.1.1	Scope of risks	2
+2.1.2	Rationale underlying the development of the methodology	2
+2.1.3	Methodological changes compared to ICAAP 2024	2
+2.2	Forward-looking approach	2
+2.3	Perimeter and scope of data	2
+3	Outcomes	4
+3.1	Limitations and approximations	4
+3.2	Risk assessment	4
+3.3	Critical review of the Pillar 1	4
+3.4	Key risk drivers and sensitivities	4
+3.5	Mutual information between economic and normative perspectives	4
+4	Internal limit system	6
+5	System, data and industrialisation	7
+6	Control framework	8
+6.1	Control outputs	8
+6.2	Independent validation	8
+7	Future outlook	9
+8	Appendices	10
+
+	 
+	Introduction
+
+This document aims at describing the methodology that was used by BPCE group to perform its 2025 ICAAP exercise regarding the interest rate risk of the banking book.
+As required by the single supervisory mechanism, BPCE group’s internal capital adequacy assessment process (“ICAAP”) includes an evaluation of the internal capital required to cover the interest rate risk of the banking book (“IRRBB”). This assessment is performed by BPCE group’s ALM function, in accordance with the ALM function’s mandate to identify, measure and manage the group’s general interest rate risk.
+The definition of the amount of internal capital needed is based on an internal methodology developed by BPCE SA ALM Department and compliant with EBA Guidelines regarding IRRBB. 
+The objective is to determine the need and the amount of economic capital for interest rate risk on the Banking Book; the scope selected is therefore exclusively that of the interest-rate-sensitive assets and liabilities of the Banking Book. 
+The internal capital requirement for interest rate risk (IRRBB) is calibrated in a way that the group must be able to absorb a rate shock without any major effect on its solvency and capable to maintain a net residual value above the equity value.
+
+ 
+	Methodology
+Description of the methodology for assessing risk type
+
+Interest Rate Scenarios
+	Interest rates shocks estimation methodology
+The calibration of interest-rate shocks is modeled using 6 main driving variables on the EUR swap rate at 3M, 1Y, 2Y, 5Y, 10Y and 30Y.
+Calculations are based on day-to-day historical data over a 17-year period. The shock is modeled over a 1-year horizon and a 99.9% confidence level.
+At the end of 2023, all IRRBB scenarios were reviewed. These recalibrations were carried out using the Groupe Meucci method. This methodology is also used on CSRBB perimeter.
+	IRRBB scenarios: In line with the recommendations made by the ECB during its inspection mission in 2022, the new calibration of shocks makes it possible to model distortions in the yield curve :
+	IRRBB up: a upward translation of the interest rate curve simultanually on all maturities,
+	IRRBB down : a downward translation of the interest rate curve simultanually on all maturities,
+	IRRBB short term up : upward mouvement of the interest rate on short term maturities,
+	IRRBB short term down : downward mouvement of the interest rate on short term maturities,
+	IRRBB steepening: Stepening distortion of the interest rate curve,
+	IRRBB flattening : Flatening distortion of the interest rate curve.
+
+The Meucci approach consists of two main parts:
+1) Determine the inputs that define the scenario, that is to say: 
+a. the catalyst variables (i.e. the 6 main driving variables mentioned above), as well as their directions and intensities; 
+b. the variables are then grouped into a cluster, allowing to obtain the moves imposed by the scenario.
+2) Implement the model for shocks computation:
+a. weighting historical periods satisfying constraints on catalyst variables using catalyst probabilities;
+b. weighting the history through an aggregated probability for each cluster;
+c. the non-catalyst variables are then assigned to a cluster. The vector of aggregated Catalyst probabilities is then applied to all non-Catalyst variables.
+	Clustering of catalysts variables for IRRBB:
+The clustering step allows to produce shocks that are both aligned with the scenario narrative and likely with respect to historical data. Indeed, grouping catalysts in a single cluster allows to capture their historical correlations. 
+The catalyst (driver) variables are as follows:
+TABLE 1 – Shocks for rates - catalysts variables
+ 
+
+	Model extended to non-catalysts variables:
+The model is then extended to non-catalyst variables. These variables are assigned to a cluster. The vector of aggregated Catalyst probabilities is then applied to all non-Catalyst variables. 
+
+Liquidity spread scenarios
+In addition to the 6 rate shocks, a widening shock is apply to BPCE's own liquidity spread.
+The shock is estimated for a one notch downgrade based on expert opinion and is set at +60bps.
+Creation of scenarios
+At the end of the process, all variables (catalyst or not) have been shocked. This enabled us to draw the 6 rate-curve distortion scenarios on which the NII and EVE calculations will be based.
+Economic Value approach
+
+It is not necessary to mobilize economic capital as long as the value of the assets remains higher than the value of the liabilities including own funds in one of the different rate stress scenarios.
+Conditions for non-raising capital under the IRRBB:
+Asset value  ≥  Liabilities Value          ↔           
+Asset Value – Liabilities excluding Equity Value  ≥  Equity Value
+The “Asset value – Liabilities excluding Equity value” is calculated net of the costs necessary for the management of the valued positions, and net of the income tax.
+If the above condition is no longer met, the realizable value of the net assets of the liabilities no longer allows the value expected by the "owners of the equity" to be covered whether they are shares (owned by the members) or reserves (held by the cooperative). It would then become necessary to capitalize the deficit.
+For each scenario of expected rate stress, with historical probability of realization> = 99.9%, the economic capital is calculated as follows:
+Economic Capital "Value "= -Min [ 0 ;Asset Value-Liabilities Value excluding Equity-Equity Value]
+
+Valuation of Assets and non Equity Liabilities
+
+All commercial and financial assets and liabilities excluding equity are valued by discounting future cash flows on the basis of a swap rate curve (subject to the stress of rate) + BPCE own liquidity spread (prevailing to date 12/31/2024).
+The valuation of hedging derivatives (macro and micro) is added.
+The cash flow models used (in particular the prepayment and renegotiation models and the modelling assumptions) are identical to those used in management of IRRBB. They are also the same as those used in the SOT/EVE metric, with the exception of the treatment of commercial margins (margins calculated with reference to FTPs):
+	In the SOT/EVE, the commercial margins are excluded because operationally the ALM manages the sensitivity (in income and in value) related to the transformation position.
+	In the ICAAP exercice, commercial margins are included because the approach is to compare the overall realization value of the net assets with that of the equity: thus, the fluctuation of the value of the commercial margins related to the prepayments is taken into account.
+Valuation of Equity
+
+There is two components for the Equity, in the one hand the reserves and cooperatives shares on the other hand.
+Modelling and valuation of the Reserves: Same modelling as used in management: fixed rate 0% with a 20-year liquidity profile in accordance with Group agreement and Valuation identical to that of a zero-coupon (discounting the cash-flows)
+Modelling and valuation of the Cooperative Shares: Same  liquidity schedule profile of the reserves, Coupon modeling that must respect the legal ceiling at past three years average TMO + 2% approximated for projection by (Y-1 TMO+Y-2 TMO + Y CMS10 years (annual fixing dates))/3 + 2.6% floored at 1%. Charts below show that the approach is conservative.
+CHART 1 – TMO vs CMS10Y
+ 
+
+In addition, the full equity base are taking into account (and not just the equity facing the balance sheet with interest rate risk) in order to integrate any sensitivity in value of equity for an appropriate consolidated calculation.
+Taking into account of Management Costs
+
+The estimated costs required for the management of the valued activities are based on observed costs with the distinction between network costs and support functions and the allocation of these costs between the new activity and the management of the stock. 
+Taking into account of income Tax
+
+The estimated income tax is based on discounted interest flows to which the standard tax rate is applied.
+Earning Approach 
+
+This approach is based on Net Interest Income Sensitivity over one year which is run for the chosen stress-test scenarios. In fact two components are stressed: The Net Interest Income of the Banking Book and Income of the cooperative shares. The others items of the income correspond to the budget : fees, expenses, cost of risk and tax rate.
+The Economic Capital ”Earnings” is performed like that:  
+Economic Capital "Earnings "= -Min[0 ;[stressed-budget NII(1 year)]*(1-tax rate)- [stressed-budget Income of cooperative shares(1 year)] 
+This approach allows to check that the income net of remuneration of the cooperative shares in adverses scenarios do not damage the budgeted equity trajectory. If this condition is not respected, then a capital requirement is calculated, corresponding to the difference between stressed net income and the budget.
+The scope, the interest rate scenarios, the customers behavioural models and the modelling of Equity are identical in the two approachs economic value and earning.
+The NII sensitivity over the next one year is based on a dynamic Balance Sheet. 
+For the network Banques Populaires and Caisses d’Epargne the new business expectations are those for the budget.
+For new retail home loans, corporate and SME long-term loans and amortising consumer loans the commercial margins are modeled and are sensitive to the evolution of interest rates.  
+
+	Scope of risks
+
+All materials risks relative to IRRBB are integrated in the evaluation : Gap risk, yield curve risk, inflation risk, TMO risk, option risk.
+At this stage, climate risk has not been taken. Indeed, based on our expertise and following our studies on the normative ICAAP, this risk is not significant on the IRRBB. However, next year, this risk will be analyzed in a more deeply and exhaustive way.
+
+	Rationale underlying the development of the methodology
+
+The interest rate risk can be approached according to two methods: a loss approach based on the sensitivity of the Net Interest Income and a value logic based on the Economic Value of Equity (EVE) and the Embedded Value (EV).
+The impairment loss that can lead to an economic capital mobilization materializes when the realizable value of the assets net of liabilities, management costs and income tax, no longer makes it possible to cover the value expected by the "holders of equity".
+The EV is calculated from the valuation of future cash flows, ie the value of assets less the value of the liabilities, plus the valuation of the derivatives portfolio. This global valuation is then compared to the value of the equity (shares + reserves) to determine the EVE, the amount of equity capital is equal to the amount required to balance the initial balance sheet in liquidity. 
+The EV and the EVE are calculated on the basis of the interest rate curve as of 12/31/2023 and by applying to it various definite rate shocks with a probability of occurrence of 99.9% (maximum variation on 1y observed on last seventeen years applied tenor by tenor).
+The income approach makes it possible to verify that the stressed incomes and the stressed distributable result remains sufficient in extreme scenarios to maintain the budgeted equity trajectory. If this condition is not respected, then a capital requirement is calculated, corresponding to the difference between stressed net income and the budget.
+
+	Methodological changes compared to ICAAP 2024
+
+As a reminder, a new methodology has been implemented for 2024 Economic Capital exercise. 
+Methodological changes have been presented in Comité Modèle Groupe in March 2024 and the new methodology endorsed subject to the application of evolution/improvements. In order to comply with model validation requests, the following evolutions/improvements for 2025 exercise: 
+	Ajustment of the idiosyncratic spread impacting both revenue and value approaches. In 2024 methodology, the spread impact was calibrated with a level of confidence of 99.9%. In order to have a shock more consistent with the potential deterioration of Group financial situation and rating (as a consequence of a very adverse Interest rates environment), spread has been reviewed based on expert opinion and Senior unsecured historical data. The spread has been lowered at 60bps and is now applied for all tenors. Also this shock is strictly idiosyncratic and is differ from the CSRBB systemic shock. The perimeter of application of this shock is limited to Group financial libialities issued composated by interbank assets. 
+	For BPCE SA a VAN sensitivity approach has been implemented in value approach, taking into account EVE + Free own funds sensitivies.
+	Stage 1 provisions have been integrated for value approach
+	Fair value portfolio (mostly composed of FVOCI) have been integrated into revenus approach.
+Forward-looking approach
+The estimation of economic capital using a 'Forward looking' approach is based on the ICAAP economic methodology described in this note.
+As of 12/31/2023 (2024 exercise), the most impactful/severe approach was the revenue approach over 1 year horizon. To allow comparability of needs for future years (from year 2 to year 4), ALM has chosen to only apply this approach for forward looking IRRBB economic capital approach. 
+This choice allows for estimating the impact of the position’s distortion over time. Also Forward looking approach provide an additional sensitivity measurement using a Baseline Economic Capital approach and an Adverse Economic capital approach.
+Shocks are applied at the start of the reference period (referenced as Year2, Year3 and Year4). For previous periods, the forward yield curve is applied.
+The economic capital in the Baseline scenario will correspond, for each Forward year (from N+2 up to N+4), to the difference between:
+	Net income after tax and shares remuneration in the shocked scenario (the most severe);
+	Net income after tax and shares remuneration as anticipated in the budget (as of 12/31/2023).
+The economic capital in the Adverse scenario will correspond, for each Forward year (from Year2 up to Year4), to the difference between:
+	Net income after tax and shares remuneration in the Baseline scenario +100bps;
+	The income anticipated in the budget (as of 12/31/2023).
+Inputs used for Forward looking approach are: 
+
+
+
+	Baseline 3 years forward looking approach (including pro forma impact of 12/24 evolutions and improvements)
+ 
+
+
+	Adverse (baseline +100bps shock) 3 years forward looking approach (including pro forma impact of 12/24 evolutions and improvements)
+ 
+
+Perimeter and scope of data
+
+The Data is as of December 2025:
+TABLE 4 – Perimeter
+ 
+
+ 
+	Outcomes
+	Limitations and approximations
+
+No identified limitation and approximation for this perimeter.
+
+Risk assessment
+
+RESULTS
+Our internal approach implies a need of 6.1 G€ for economic capital for interest rate risk at Group level as of December 31, 2024
+
+ 
+
+
+
+
+
+
+
+
+
+
+Economic Value Approach-Results
+
+TABLE 6 – Economic Value Approach for six interest rate scenarios including liquidity shock - BPCE Group
+ 
+
+Earning Approach-Results 
+
+TABLE 7 – Earning Approach for six interest rate scenarios including liquidity shock - BPCE Group
+ 
+
+Critical review of the Pillar 1
+
+This section is not applicable because IRRBB does not belong to Pillar 1
+
+Key risk drivers and sensitivities
+
+The earning approach has highlighted a need of capital of 5.7 G€ for the rising rates scenario.
+This demonstrates the Group's sensitivity to two combined effects: rising interest rates and widening of BPCE's own credit spread. Two elements that increase refinancing costs (including the effects of customer arbitrage and share remuneration) and carry cost of fixe interest rate position. 
+
+Mutual information between economic and normative perspectives
+
+The normative perspective seeks to quantify the impacts of several adverse scenarios on future profitability (through NII forecasts) and their consequences on the solvency trajectory. The normative perspective is based on the NII sensitivity over the next three years on a dynamic balance sheet. The exercise relies on several internal deterministic scenarios validated by the group’s senior management regarding the evolution of interest rates, liquidity spreads and assets and liabilities outstanding amounts. Assets and liabilities are not deemed constant but vary over time and from one scenario to another. The evolution of the volumes of the different assets and liabilities classes are determined by the budget forecast for the baseline one and by the finance control team for the adverse scenarios. These hypotheses take into account the projected evolution of interest rates, refinancing constraints and probable arbitrage between deposit instruments.
+The economic perspective seeks to assess potential financial loss over a 1 year period under a 99.9% confidence level on the part of the balance-sheet which is sensitive to interest rates. As already explained in the section “1.1 Description of the methodology”, this approach consists of two separate sub-perspectives: one in net residual value (compared to equity value) and another one in terms of sensitivity of net income after dividends payed to the shareholders, compared with budget.
+The economic approach is based on the same behavioural models and conventions than the normative perspective and is consistent with the assumptions used by the banks for the actual interest rates management. On the other hand, unlike the normative perspective, the economic perspective is fully static for the value approach and implemented under the same December 2024 volume forecasts (regardless the interest rates scenario) for the revenues approach. Moreover, the stressed interest rates of the economic perspective are defined from historical scenarios and not from deterministic scenarios.
+	Internal limit system
+No internal limits on IRRBB and result are used as part of the risk monitoring and reporting systems based on the ICAAP outcomes under the economic perspective for the risk, or sub-risks, considered in this note.
+
+	System, data and industrialisation
+
+Data used stem from BPCE assets and liabilities management systems:
+Risk Confidence ALM (RCO) for BPCE SA and retail banks,
+Riskpro for GFS positions.
+The calculation process is run under an internal tools (‘PASS ALM’) owned by ALM department. 
+To be noted that PASS ALM is the single tool used for all NII (and liquidity) projections and as such for ICAAP economic approach but also for ICAAP normative approach (STI), EBA Stress test and STE calculations.
+
+ 
+	Control framework
+Control outputs
+
+Level 1 controls in place explain the variation between ICAAP exercices. Moreover the consistency of the results is analyzed compared to other exercices (STE,RAF).
+
+Independent validation
+
+As all Group’s models evolution, the methodology for the economic approach of the IRRBB has been submitted to the internal validation (MRM department, within the BPCE’s risk division).
+Review and validation have been performed by the group model committee for the end of Q2 2024 and evolution listed above will be controlled and reviewed for 2025 exercise.
+ 
+	Future outlook
+
+Analytical works are still in progress to define how outputs under the economic approach can be used for operational steering of the interest rate risk framework, as of today, capital is required to cover IRRBB at the group level.
+	Measure and monitoring at local level Group (calculation by entities to be done, now possible thanks to Pass ALM improvements)
+	Possible role of BPCE SA to cover IRRBB in extremely adverse conditions (as it is done for liquidity as BPCE SA is the lender of last resort)
+.
+
+ 
+	Appendices
+
+TABLE 1 – Shocks for rates - catalysts variables
+TABLE 2 – Shocks for own liquidity spread
+TABLE 3 – Results forward looking
+TABLE 4 – Perimeter
+TABLE 5 – Results
+TABLE 6 – Economic Value Approach for six interest rate scenarios including liquidity shock
+TABLE 7 – Earning Approach for six interest rate scenarios including liquidity shock
+
